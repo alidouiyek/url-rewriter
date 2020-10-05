@@ -1,5 +1,5 @@
 body {
-	width: 600px;
+	width: 1000px;
 	margin: 15px 10px 10px 70px;
 	font-family: 'Noto Sans', 'Segoe UI', 'Lucida Grande', 'Open Sans', arial, sans-serif;
 	font-size: 12px;
@@ -24,19 +24,19 @@ hr
 h1
 {
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 h2
 {
 	font-weight: normal;
-	font-size: large;
+	font-size: 20px;
 	margin: 5px;
 }
 
 table
 {
-	margin-left: 10px;
+	margin-left: 20px;
 	width: 90%;
 }
 
@@ -55,14 +55,14 @@ table
 .inlineTextBox
 {
 	margin: 3px 5px;
-	width: 400px;
+	width: 810px;
 }
 
 input[name='regexText'] {  font-family: "Lucida Console", Monaco, monospace; }
 
 input[name='groupNumText'] { width: 50px; }
 
-input[name='replacementText'] { width: 200px; }
+input[name='replacementText'] { width: 350px; }
 
 .rewriteDef
 {
@@ -73,13 +73,17 @@ input[name='replacementText'] { width: 200px; }
 
 #saveBtn
 {
+	width: 80px;
 	float: right;
-	margin-right: 10px;
+	margin-right: 60px;
 }
 
 .removeBtn
 {
+	width: 80px;
 	float: right;
+	margin-right: 50px;
+
 }
 
 /* Notifications */
